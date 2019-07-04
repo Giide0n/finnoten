@@ -1,0 +1,79 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+!**/finnoten-angular/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/finnoten-angular/dist
+/finnoten-angular/tmp
+/finnoten-angular/out-tsc
+# Only exists if Bazel was run
+/finnoten-angular/bazel-out
+
+# dependencies
+/finnoten-angular/node_modules
+
+# profiling files
+/finnoten-angular/chrome-profiler-events.json
+/finnoten-angular/speed-measure-plugin.json
+
+# IDEs and editors
+/finnoten-angular/.idea
+/finnoten-angular/.project
+/finnoten-angular/.classpath
+/finnoten-angular/.c9/
+*.launch
+/finnoten-angular/.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/finnoten-angular/.vscode/*
+!/finnoten-angular/.vscode/settings.json
+!/finnoten-angular/.vscode/tasks.json
+!/finnoten-angular/.vscode/launch.json
+!/finnoten-angular/.vscode/extensions.json
+/finnoten-angular/.history/*
+
+# misc
+/finnoten-angular/.sass-cache
+/finnoten-angular/connect.lock
+/finnoten-angular/coverage
+/finnoten-angular/libpeerconnection.log
+/finnoten-angular/npm-debug.log
+/finnoten-angular/yarn-error.log
+/finnoten-angular/testem.log
+/finnoten-angular/typings
+
+# System Files
+/finnoten-angular/.DS_Store
+/finnoten-angular/Thumbs.db
