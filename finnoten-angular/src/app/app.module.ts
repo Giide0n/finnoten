@@ -8,13 +8,17 @@ import { BaseGuard } from './base/base-guard';
 import { BaseComponent } from './base/components/base/base.component';
 import { HeaderComponent } from './header/components/header/header.component';
 import { LoginComponent } from './login/components/login/login.component';
+import { DashboardComponent } from './base/components/dashboard/dashboard.component';
+import { SchoolComponent } from './base/components/school/school.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HeaderComponent,
-    BaseComponent
+    BaseComponent,
+    DashboardComponent,
+    SchoolComponent
   ],
   imports: [
     BrowserModule,

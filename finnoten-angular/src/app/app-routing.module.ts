@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BaseGuard } from './base/base-guard';
 import { BASE_ROUTES } from './base/base-routing';
+import { BaseComponent } from './base/components/base/base.component';
 import { LOGIN_ROUTES } from './login/login-routing';
 
 const APP_ROUTES: Routes = [
@@ -16,6 +17,7 @@ const APP_ROUTES: Routes = [
   },
   {
     path: 'base',
+    component: BaseComponent,
     children: BASE_ROUTES,
     canActivate: [
       BaseGuard

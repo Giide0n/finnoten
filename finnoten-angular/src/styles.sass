@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+body
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  margin: 0
+  padding: 0
+
+label
+  font-size: large
+
+a
+  color: black
+  border: 2px black
+  padding: 5px
+  -webkit-animation: hover-release
+  -o-animation: hover-release
+  animation: 300ms ease-out 1 hover-release
+  &:hover
+    -webkit-animation: hover
+    -o-animation: hover
+    animation: 300ms ease 1 hover
+    color: grey
+
+@keyframes hover
+  0%
+    color: black
+
+  100%
+    color: grey
+
+@keyframes hover-release
+  0%
+    color: grey
+
+  100%
+    color: black
